@@ -1,0 +1,48 @@
+@import '../../App.scss';
+
+.card-container{
+    width: 400px;
+    overflow: hidden;
+    background: #2A2A2A;
+    border: 2px solid #2A2A2A;
+    border-radius: 10px 10px 15px 15px;
+
+
+    .image-container img{
+        overflow: hidden;
+        height: 240px;
+        width: 100%;
+    }
+
+    .card-bottom{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 5px;
+    }
+
+    .card-btn {
+        .btn{
+            color: var(--Primary-Color);
+            padding: 5px 10px;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: normal;
+            border-radius: 50px;
+            border: none;
+            box-shadow: 4px 0px 10px -5px;
+            background: #000000;
+
+            display: inline-flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .btn:hover{
+            box-shadow: 0px 5px 7px rgba(241, 241, 241, 0.4);
+            transition: 0.5s ease-in-out;
+            transform: translateY(-4px);
+        }
+    }
+}

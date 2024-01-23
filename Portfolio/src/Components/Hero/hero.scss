@@ -1,0 +1,93 @@
+@import '../../App.scss';
+
+.hero{
+    // margin-top: 120px;
+    
+    padding: 5px;
+}
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+   .avatar{
+       width: 200px;
+       height: 200px;
+       border-radius: 50%;
+       overflow: hidden;
+       margin-top: 50px;
+
+       img{
+        padding: 3px;
+        width: 100%;
+        object-fit: cover;
+        background: linear-gradient(116deg, #FF8660 30.79%, #8000FF 95.51%);
+       }
+
+   }
+
+    .title , .about-me {
+        width: 670px;
+        max-width: 100%;
+    }
+
+    .title h1{
+
+        @include mobile{
+            font-size: 45px;
+        }
+    }
+
+    .title .slct{
+        background: var(--Primary-Gradient, linear-gradient(116deg, #FF8660 71.79%, #9A33FF 95.51%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .about-me{
+        display: flex;
+        padding: 0 5px;
+        margin-bottom: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .actionBtns{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px;
+
+        .btn{
+            padding: 15px 30px;
+            font-size: 21.38px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            color: black;
+            border-radius: 50px;
+            border: 1px solid var(--Primary-Color, #FFF);
+            background: linear-gradient(0deg, var(--Primary-Color, #FFF) 0%,
+                             var(--Primary-Color, #FFF) 100%), 
+                             var(--Primary-Color, #FFF);
+        }
+
+        .btn:last-child{
+            background: transparent;
+            color: var(--Primary-Color);
+            border: 2px solid var(--Primary-Color, #FFF);
+           
+        }
+
+        @include mobile {
+            flex-wrap: wrap;
+            .btn {
+              width: calc(50% - 15px); /* Adjust the width to create two buttons on a row with a 20px gap */
+              text-align: center;
+            }
+          }
+
+    }
+}

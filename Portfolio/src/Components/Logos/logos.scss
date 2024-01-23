@@ -1,0 +1,35 @@
+@import '../../App.scss';
+
+.logos-container{
+
+    h2{
+        color:  #C5C5C5;
+        fill: linear-gradient(180deg, #FDFDFD 0%, rgba(255, 255, 255, 0.18) 100%);
+        letter-spacing: 2.4px;
+        margin-top: 90px;
+        margin-bottom: 50px;
+
+    }
+    
+
+    .logos{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 60px;
+
+        @include mobile {
+            flex-wrap: wrap; /* Allow items to wrap onto new lines */
+            gap: 20px; /* Adjust gap for smaller screens */
+          }
+    }
+
+    .logos .react{
+        animation: spin 4s linear infinite;
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+          }
+    }
+}

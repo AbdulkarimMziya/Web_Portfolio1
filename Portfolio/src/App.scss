@@ -1,0 +1,98 @@
+// Define Color Scheme
+$primary-color: #FFFFFF;
+$background: #161513;
+
+
+$primary-font-family: 'Outfit', sans-serif;
+$secondary-font-family:'Roboto', sans-serif;
+
+:root{
+    --primary-color: #{$primary-color};
+    --bg-color: #{$background};
+
+
+  // Define Fonts Family
+  --primary-font: #{$primary-font-family};
+  --secondary-font: #{$secondary-font-family};
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+}
+
+html{
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+.webpage{
+    min-height: 100vh;
+}
+.wrapper{
+    max-width: 1065px;
+    margin: 0 auto;
+}
+body{
+    margin: 0 auto;
+    font-family: var(--primary-font);
+}
+
+a{
+    text-decoration: none;
+}
+
+
+// -------Font styles-----------
+h1{
+    color: var(--primary-color);
+    text-align: center;
+  
+    /* H1 - Main Heading */
+    font-family: var(--primary-font);
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 63.357px;
+}
+
+h2{
+    color: var(--primary-color);
+    text-align: center;
+
+    /* H2 - Subheading */
+    font-family: var(--primary-font);
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 35.748px; /* 102.137% */
+    text-transform: uppercase;
+}
+
+.text{
+    color: #C5C5C5;
+    text-align: center;
+    font-family: var(--primary-font);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.36px;
+}
+
+@mixin mobile {
+    @media (max-width: 738px) {
+      @content;
+    }
+  }
+  @mixin tablet {
+    @media (max-width: 1024px) {
+      @content;
+    }
+  }
+  @mixin desktop {
+    @media (max-width: 1065px) {
+      @content;
+    }
+}
+  

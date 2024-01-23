@@ -1,0 +1,29 @@
+@import '../../App.scss';
+
+.experience-container{
+
+    padding-bottom: 100px;
+
+    h2{
+        margin-top: 100px;
+        font-weight: 800;
+        background: linear-gradient(180deg, #5BADFF 0%, #1373D1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;   
+    }
+
+    .experience-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        gap: 50px;
+    }
+
+    @include mobile {
+        h2 {
+          margin-top: 50px; /* Adjust margin for smaller screens */
+        }
+      }
+}

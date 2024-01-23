@@ -1,0 +1,67 @@
+@import '../../App.scss';
+.resume-container{
+
+    width: 800px;
+    margin: 0 auto;
+    .resume-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+
+        img{
+            height: 35px;
+            width: 35px;
+        }
+
+        .right {
+            font-size: 14px;
+            color: #8491A0;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%;
+        }
+
+        .left{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 10px;
+
+
+            h3 , p{
+                font-family: 'Outfit', sans-serif;
+            }
+
+            h3{
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+
+            p{
+                color: #8491A0;
+            }
+        }
+    }
+
+    .resume-content{
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #8491A0;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+    }
+
+    @include mobile {
+        width: 100%; /* Adjust width for smaller screens */
+        .resume-header {
+          margin-bottom: 5px; /* Adjust margin for smaller screens */
+        }
+      }
+}

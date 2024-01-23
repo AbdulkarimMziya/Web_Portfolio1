@@ -1,0 +1,41 @@
+@import '../../App.scss';
+
+
+.header{
+    // position: fixed;
+    // width: 100%;
+    // top: 0;
+    opacity: 0.7;
+    background: #222;
+    box-shadow: 0px 4.364px 16px -2.182px rgba(0, 0, 0, 0.10);
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #222;
+    box-shadow: 0px 4.364px 16px -2.182px rgba(0, 0, 0, 0.10);
+
+    .navbar{
+        
+        background: transparent;
+        display: inline-flex;
+        align-items: flex-start;
+        gap: 70px;
+
+        @include mobile{
+            display: none;
+        }
+
+    }
+
+    h2, a{
+        background: transparent;
+    }
+
+    @include mobile{
+        padding: 5px;
+    }
+}
+
