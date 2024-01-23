@@ -9,7 +9,7 @@ const Hero = () => {
                     <img src="hero.png" alt="" />
                 </div>
                 <div className="title">
-                    <h1>Aspiring <span className='slct'>Fullstack</span> and <span className='slct'>Software</span> developer.</h1>
+                    <h1><span className='slct'>Fullstack</span> and <span className='slct'>Software</span> engineer</h1>
                 </div>
                 <div className="about-me text">
                     As a third-year Bachelor of Computing Science student at Thompson Rivers University in BC, 
@@ -27,3 +27,5 @@ const Hero = () => {
 }
 
 export default Hero
+
+

@@ -11,7 +11,7 @@ const Header = () => {
 
                 <div className="navbar">
                     {items.map((item) => (
-                      <a href={`#${item}`} key={item}> {item} </a>
+                      <a href={{item}}> {item} </a>
                     ))}
                 </div>
 
