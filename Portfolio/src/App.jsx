@@ -12,9 +12,9 @@ function App() {
   return (
     <div className="webpage">
       <Header />
-      <Hero id="Home"/>
+      <Hero />
       <Logos />
-      <Projects id="Projects"/>
+      <Projects />
       <Experience />
       <Contact />
 

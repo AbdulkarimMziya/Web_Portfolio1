@@ -59,9 +59,10 @@
     }
 
     @include mobile {
-        width: 100%; /* Adjust width for smaller screens */
+        width: 90%; /* Adjust width for smaller screens */
+        padding: 5px;
         .resume-header {
-          margin-bottom: 5px; /* Adjust margin for smaller screens */
+            margin-bottom: 5px; /* Adjust margin for smaller screens */
         }
       }
 }
