@@ -25,10 +25,12 @@ $secondary-font-family:'Roboto', sans-serif;
 html{
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
+    scroll-padding-top: 6.5rem;
 }
 .webpage{
     min-height: 100vh;
 }
+
 .wrapper{
     max-width: 1065px;
     margin: 0 auto;

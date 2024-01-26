@@ -2,9 +2,9 @@ import React from 'react'
 import './hero.scss'
 const Hero = () => {
   return (
-    <div className='hero'>
+    <div className='hero' id='Home'>
         <div className="wrapper">
-            <div className="hero-container">
+            <div className="hero-container" >
                 <div className="avatar">
                     <img src="hero.png" alt="" />
                 </div>

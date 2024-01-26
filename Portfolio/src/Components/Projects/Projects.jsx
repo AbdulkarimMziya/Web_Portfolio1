@@ -10,7 +10,7 @@ const Projects = () => {
     ]
   return (
     <div className='wrapper'>
-      <div className="projects-container">
+      <div className="projects-container" id='Projects'>
         <h2>Projects</h2>
 
         <div className="project-section">

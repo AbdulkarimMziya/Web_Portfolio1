@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div className='contact'>
         <div className="wrapper">
-            <div className="contact-container">
+            <div className="contact-container" id='Contact'>
                 <h2>Contact</h2>
                 <p className="text">
                     An enthusiastic Computing Science student with hands-on experience in both frontend and backend development. 
