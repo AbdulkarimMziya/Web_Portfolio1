@@ -2,7 +2,7 @@ import React from 'react'
 import './header.scss'
 
 const Header = () => {
-  const items =['Home','Projects','Experience','Contact'];
+  const items =['Home','Projects','Working On','Contact'];
   return (
     <div className="header">
         <div className='wrapper'>

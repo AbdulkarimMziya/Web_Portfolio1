@@ -4,10 +4,10 @@ import './experience.scss'
 
 const Experience = () => {
     const resumeInfo = [
-        {title:'e-Learning Application ', tools:'HTML, CSS, JAVASCRIPT, REACT, FreeForm, Firebase', desc: 'I effectively utilize strong communication skills to engage with customers and colleagues, adeptly handling tasks such as processing returns and addressing product inquiries through both verbal and written channels. Additionally, my proficiency in Order Management Systems ensures seamless order processing, delivery tracking, and meticulous maintenance of inventory records, showcasing adaptability in managing large-scale orders and deliveries with ease.'}
+        {title:'e-Learning Application ', tools:'HTML, CSS, JAVASCRIPT, REACT, FreeForm, Firebase', desc: 'With interactive quizzes, comprehensive course listings, and seamless device compatibility, the e-learning platform aims to aid university students to engage in effective and enjoyable learning anytime, anywhere.Utilizing a Free form to design the UI for the application, leveraging React for seamless interface development.Firebase is integrated to ensure data management and real-time functionality.'}
     ]
   return (
-    <div className='wrapper' id='Experience'>
+    <div className='wrapper' id='Working On'>
       <div className="experience-container">
         <h2>Other Projects</h2>
         <div className="experience-section">
