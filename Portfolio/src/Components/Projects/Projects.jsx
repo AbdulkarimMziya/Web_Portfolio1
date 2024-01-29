@@ -6,6 +6,8 @@ import Card from '../Card/Card'
 const Projects = () => {
     const Portfolio = [
         {title:'Admin Dashboard', imgUrl:'dashboard_img.png', gitLink: 'https://github.com/AbdulkarimMziya/Admin-Web-project'},
+        {title:'Afrofusion Restaurant', imgUrl:'Afro-img.png', gitLink: 'https://github.com/AbdulkarimMziya/Restaurant_Website'},
+        {title:'Pizza Ordering System', imgUrl:'pizzasite.png', gitLink: 'https://github.com/AbdulkarimMziya/formPHP_1'},
         {title:'To-do List', imgUrl:'todo_img.png', gitLink: 'https://github.com/AbdulkarimMziya/ToDO_ReactApp'}
     ]
   return (

@@ -3,16 +3,17 @@
 
     width: 800px;
     margin: 0 auto;
+    border: 2px solid #2A2A2A;
+    border-radius: 10px 10px 15px 15px;
+
+    padding: 5px;
     .resume-header{
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin-bottom: 10px;
 
-        img{
-            height: 35px;
-            width: 35px;
-        }
+        
 
         .right {
             font-size: 14px;
