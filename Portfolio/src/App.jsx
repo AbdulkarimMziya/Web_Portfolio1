@@ -5,6 +5,7 @@ import Logos from './Components/Logos/Logos'
 import Projects from './Components/Projects/Projects'
 import Experience from './Components/Experience/Experience'
 import Contact from './Components/Contact/contact'
+import Sidebar from './Components/Header/Sidebar/Sidebar'
 
 function App() {
   
@@ -12,6 +13,7 @@ function App() {
   return (
     <div className="webpage">
       <Header />
+      <Sidebar />
       <Hero />
       <Logos />
       <Projects />

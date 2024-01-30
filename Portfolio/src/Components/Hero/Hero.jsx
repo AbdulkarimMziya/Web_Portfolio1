@@ -18,7 +18,7 @@ const Hero = () => {
                 <div className="actionBtns">
                     <a href="https://github.com/AbdulkarimMziya" target="_blank" className='btn'>GitHub</a>
                     <a href="http://www.linkedin.com/in/abdulkarim-mziya" target="_blank" className='btn'>LinkedIn</a>
-                    <a href="#" className='btn'>Download CV</a>
+                    <a href="https://docs.google.com/document/d/1_M67FewIIN-mNPHkDGeOf7L7w8yw6WfGoRYcXpjHsrc/edit?usp=sharing" target="_blank" className='btn'>View Resume</a>
                 </div>
             </div>
         </div>

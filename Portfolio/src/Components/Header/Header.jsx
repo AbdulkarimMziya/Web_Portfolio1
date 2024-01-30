@@ -1,20 +1,18 @@
 import React from 'react'
 import './header.scss'
+import { useState } from 'react';
+import Links from './Links';
+
 
 const Header = () => {
-  const items =['Home','Projects','Working On','Contact'];
+  const [isOpen, setOpen] = useState(false);
+  
   return (
     <div className="header">
         <div className='wrapper'>
             <div className="header-container">
                 <h2>Abdulkarim.</h2>
-
-                <div className="navbar">
-                    {items.map((item) => (
-                      <a href={`#${item}`}> {item} </a>
-                    ))}
-                </div>
-
+                    <Links /> 
             </div>
         </div>
     </div>

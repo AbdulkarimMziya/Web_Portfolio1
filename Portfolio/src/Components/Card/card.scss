@@ -7,6 +7,10 @@
     border: 2px solid #2A2A2A;
     border-radius: 10px 10px 15px 15px;
 
+    @include mobile{
+        max-width: 92%;
+    }
+
 
     .image-container img{
         overflow: hidden;

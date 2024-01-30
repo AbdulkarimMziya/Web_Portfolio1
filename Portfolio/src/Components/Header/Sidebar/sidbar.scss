@@ -1,0 +1,65 @@
+@import "../../../App.scss";
+
+.sidebar {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    @include mobile {
+        display: flex;
+      }
+    
+    .bg {
+        z-index: 999;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 180px;
+
+
+        .links{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+
+
+            a{
+                padding: 10px;
+                text-align: center;
+                width: 95%;
+                transition: 0.3s;
+                font-size: 20px;
+
+            }
+            a:hover{
+                border-bottom: 2px white outset;
+                border-left: 4px white outset;
+                border-right: 4px white outset;
+                border-radius: 5px;
+                box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
+            }
+        }
+    }
+    button {
+        z-index: 999;
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        position: fixed;
+        top: 25px;
+        right: 25px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+      }
+
+}
