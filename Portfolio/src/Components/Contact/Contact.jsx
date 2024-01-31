@@ -18,9 +18,9 @@ const Contact = () => {
                 <span className="mail">
                     <a href="mailto:abdulmziya@gmail.com" target='_blank'><BiLogoGmail /> abdulmziya@gmail.com </a></span>
                 <div className="social-icons">
-                    <FaLinkedin  style={style}/>
-                    <FaGithubSquare style={style}/>
-                    <FaInstagram style={style}/>
+                    <a href='http://www.linkedin.com/in/abdulkarim-mziya' target='_blank'><FaLinkedin  style={style}/></a>
+                    <a href='https://github.com/AbdulkarimMziya' target='_blank'><FaGithubSquare style={style}/></a>
+                    <a href='http://instagram.com/ak_mziya21/' target='_blank'><FaInstagram style={style}/></a>
                 </div>
             </div>
         </div>
