@@ -12,7 +12,7 @@ const Hero = () => {
                     <h1><span className='slct'>Fullstack</span> and <span className='slct'>Software</span> engineer</h1>
                 </div>
                 <div className="about-me text">
-                    As a third-year Bachelor of Computing Science student at Thompson Rivers University in BC, 
+                    As a fourth-year Bachelor of Computing Science student at Thompson Rivers University in BC, 
                     Canada, I'm actively seeking internships to apply and strengthen my skills.
                 </div>
                 <div className="actionBtns">
